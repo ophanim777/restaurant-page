@@ -7,6 +7,7 @@ function clearContent() {
 document.getElementById('home-btn').addEventListener('click', () => {
   clearContent();
   loadHome();
+  });
 
 document.getElementById('menu-btn').addEventListener('click', () => {
   clearContent();
@@ -19,4 +20,3 @@ document.getElementById('contact-btn').addEventListener('click', () => {
 });
 
 
-});
