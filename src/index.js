@@ -19,4 +19,5 @@ document.getElementById('contact-btn').addEventListener('click', () => {
   loadContact();
 });
 
+loadHome();
 
