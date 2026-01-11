@@ -4,5 +4,7 @@ import loadContact from "./pages/contact";
 function clearContent() {
   document.getElementById('content').textContent = '';
 }
-
-loadHome();
+document.getElementById('home-btn').addEventListener('click', () => {
+  clearContent();
+  loadHome();
+});
