@@ -9,5 +9,6 @@ export default function loadMenu() {
     p.textContent = item;
     div.appendChild(p);
   });
+  content.appendChild(div);
 
 }
